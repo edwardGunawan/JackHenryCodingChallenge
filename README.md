@@ -15,9 +15,9 @@ Write an http server that uses the Open Weather API that exposes an endpoint
 - Follow the docker-compose instruction [here](docker-compose/README.md)
 
 Running without docker:
-```json
+```sbt
 // inside JackHenryCodingChallenge directory
-sbt run
+$ sbt run
 ```
 
 ## Description
@@ -122,9 +122,9 @@ response:
 Use native-docker plugin to build docker image.
 
 To build docker image:
-```json
+```sbt
 // Inside JackHenryCodingChallenge directory
-sbt docker:publishLocal
+$ sbt docker:publishLocal
 ```
 
 ## ToDO
